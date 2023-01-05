@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    min-height: 100vh;
+
+}
+
+header {
+    background-image: linear-gradient(to left, rgb(5, 25, 51), rgb(9, 37, 73), rgb(14, 50, 97), rgb(20, 66, 126), rgb(29, 91, 172));
+    text-align: center;
+    color: white;
+
+
+}
+
+header>h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+header>nav {
+    padding-bottom: 50px;
+
+
+
+}
+
+
+
+a.link1 {
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+a.link2 {
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+a.link3 {
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a:hover.link1 {
+    display: inline;
+
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-justify: auto;
+    position: static;
+    background-color: rgb(163, 255, 191);
+    font-weight: bolder;
+}
+
+a:hover.link2 {
+    display: inline;
+
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-justify: auto;
+    position: static;
+    background-color: rgb(163, 255, 191);
+    font-weight: bolder;
+
+}
+
+a:hover.link3 {
+    display: inline;
+
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-justify: auto;
+    position: static;
+    background-color: rgb(163, 255, 191);
+    font-weight: bolder;
+
+}
+
+.Unidade1 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(9, 51, 102);
+    width: 95vw;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.TituloUnidade1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.ParagrafoUnidade1 {
+    
+    padding-left: 5px;
+    text-align: left;
+    
+
+}
+p{
+    text-indent: 20px;
+}
+.ParagrafoParaLinkUnidade1 {
+    text-align: center;
+}
+.divLinkUnidade1{
+    margin-top: 30px;
+}
+a.LinkUnidade1{
+ 
+     
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    color: black;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(163, 255, 191);
+    
+   
+}
+a.LinkUnidade1:hover{
+    
+    display: inline;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(163, 255, 191);
+    font-weight: bolder;
+
+}
+
+
+
+
+.Unidade2 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(9, 51, 102);
+    width: 95vw;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.TituloUnidade2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.ParagrafoUnidade2 {
+    
+    padding-left: 5px;
+    text-align: left;
+    
+
+}
+p{
+    text-indent: 20px;
+}
+.ParagrafoParaLinkUnidade2 {
+    text-align: center;
+}
+.divLinkUnidade2{
+    margin-top: 30px;
+}
+a.LinkUnidade2{
+ 
+     
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    color: black;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(163, 255, 191);
+    
+   
+}
+a.LinkUnidade2:hover{
+    
+    display: inline;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(163, 255, 191);
+    font-weight: bolder;
+
+}
+
+
+.Unidade3 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(9, 51, 102);
+    width: 95vw;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.TituloUnidade3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.ParagrafoUnidade3 {
+    
+    padding-left: 5px;
+    text-align: left;
+    
+
+}
+p{
+    text-indent: 20px;
+}
+.ParagrafoParaLinkUnidade3 {
+    text-align: center;
+}
+.divLinkUnidade3{
+    margin-top: 30px;
+}
+a.LinkUnidade3{
+ 
+     
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    color: black;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(163, 255, 191);
+    
+   
+}
+a.LinkUnidade3:hover{
+    
+    display: inline;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(163, 255, 191);
+    font-weight: bolder;
+
+}
+footer{
+    background-image: linear-gradient(to left, rgb(5, 25, 51), rgb(9, 37, 73), rgb(14, 50, 97), rgb(20, 66, 126), rgb(29, 91, 172));
+}
+
+
+
+
+
