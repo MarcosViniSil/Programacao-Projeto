@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+    font-family: 'Inter', sans-serif;
+
+}
+header {
+    text-align: center;
+}
+
+header>h1 {
+    font-size: 30px;
+    color: black;
+    padding-top: 35px;
+}
+
+header>nav {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 1px;
+}
+a.link1EstruturasCondicionais {
+    font-size: 22px;
+    color: black;
+
+    padding-right: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+    border-radius: 10px;
+}
+
+a:hover.link1EstruturasCondicionais{
+    display: inline;
+
+    color: white;
+    background-color:black;
+
+    font-weight: bolder;
+}
+
+a.link2EstruturasCondicionais {
+    font-size: 22px;
+    color: black;
+
+    padding-right: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+    border-radius: 10px;
+}
+
+a:hover.link2EstruturasCondicionais {
+    display: inline;
+
+    color: white;
+    background-color:black;
+
+    font-weight: bolder;
+}
+h2{
+    text-indent: 20px;
+}
+h3{
+    text-indent: 30px;
+}
+p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-indent: 40px;
+
+}
+.Paragrafo1Unidade3{
+    
+}
+.DivCodeJavaUnidade3{
+    text-align: left;
+}
+
+a.LinkDowloadUnidade3Condicionais {
+    font-size: 15px;
+    color: black;
+
+    padding-right: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+    border-radius: 10px;
+}
+
+a:hover.LinkDowloadUnidade3Condicionais{
+    display: inline;
+
+    color: white;
+    background-color:black;
+
+    font-weight: bolder;
+}
+table {
+    
+    margin: auto;
+    width: 500px;
+    border-collapse: collapse;
+
+
+}
+.tabela{
+    padding-top: 40px;
+    overflow-x: auto;
+}
+.td{
+    border: 1px solid black;
+    padding: 8px;
+}
+.th {
+    
+    
+    border: 1px solid black;
+    padding: 8px;
+
+}
+.FooterCondicional{
+    color:black;
+    text-align: center;
+    padding-top: 30px;;
+    
+   }
+
+
+   a.linkFooterCondicao{
+    color: black;
+    padding-right: 20px;
+    text-decoration: none;
+}
+a:hover.linkFooterCondicao {
+    display: inline;
+
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-justify: auto;
+    position: static;
+   
+    font-weight: bolder;
+}
