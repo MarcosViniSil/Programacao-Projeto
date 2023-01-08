@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herança</title>
+    <link rel="shortcut icon" href="favicon/icons8-código-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="Heranca.css">
+</head>
+<body>
+    <header>
+        <h1>Herança</h1>
+        <nav> <a href="Unidade1.html" class="link2Heranca">Anterior</a> <a href="index.html"
+                class="link1Heranca">Home</a> </nav>
+    </header>
+
+    <main>
+      <h2>O que é herança em Programação</h2>
+      <p>Herança em programação é um mecanismo que permite que classes derivadas (filhas) herdem atributos e comportamentos de classes base (pais). Isso significa que as classes filhas podem reutilizar, estender ou modificar o comportamento existente das classes base. Isso torna o código mais reutilizável, poupando tempo e esforço ao invés de reescrever código que já existe.</p>
+      <h2>Qual a vantagem de se utilizar herança?</h2>
+      <p>
+        A herança em programação permite que classes compartilhem atributos e comportamentos, o que aumenta a reutilização de código e facilita a manutenção. Ela estabelece uma relação de generalização/especialização entre classes, onde classes mais genéricas podem ser usadas para criar classes mais específicas. Isso permite que classes complexas sejam organizadas em hierarquias de herança, onde cada classe se concentra apenas nos seus atributos e comportamentos específicos.</p>
+      <p>Exemplos de herança em Java:</p>
+      <div style="overflow-x: auto;">
+        <pre>
+
+            <code>
+            <span style="color: red;">Exemplo 1:</span>
+
+                public class Animal { 
+ 
+                    private String nome; 
+                 
+                    public Animal(String nome) { 
+                        this.nome = nome; 
+                    } 
+                 
+                    public void andar() { 
+                        System.out.println("O animal " + nome + " está andando."); 
+                    } 
+                } 
+                 
+                public class Cachorro extends Animal { 
+                 
+                    public Cachorro(String nome) { 
+                        super(nome); 
+                    } 
+                 
+                    public void latir() { 
+                        System.out.println("O cachorro "+ nome + " está latindo!"); 
+                    } 
+                } 
+            <span style="color: red;">Exemplo 2:</span>
+            
+                public class Animal {
+ 
+                    private String nome;
+                    private int idade;
+ 
+                    public Animal(String nome, int idade) {
+                    this.nome = nome;
+                    this.idade = idade;
+                    }
+ 
+                    public void comer() {
+                    System.out.println("Animal comendo...");
+                    }
+ 
+                    public String getNome() {
+                    return nome;
+                    }
+ 
+                    public int getIdade() {
+                    return idade;
+                    }
+                }
+
+                    public class Cachorro extends Animal {
+ 
+                    private String raca;
+ 
+                    public Cachorro(String nome, int idade, String raca) {
+                    super(nome, idade);
+                    this.raca = raca;
+                }
+ 
+                    public String getRaca() {
+                    return raca;
+                }
+ 
+
+            </code>
+        </pre>
+      </div>
+    </main>
+    <footer>
+
+        <p  class="FooterHeranca">Encontou algum problema? <a class="linkFooterHeranca" href="PaginaErro.html">clique aqui</a></p>
+    </footer>
+</body>
+</html>

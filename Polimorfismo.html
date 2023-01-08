@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polimosrfismo</title>
+    <link rel="stylesheet" href="Polimorfismo.css">
+    <link rel="shortcut icon" href="favicon/icons8-código-48.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Polimosrfismo</h1>
+        <nav> <a href="Unidade1.html" class="link2Polimorfismo">Anterior</a> <a href="index.html"
+                class="link1Polimorfismo">Home</a> </nav>
+    </header>
+    <main>
+       <h2>O que é Polimorfismo?</h2>
+       <p>
+        Polimorfismo em programação é um conceito de orientação a objetos que permite que um objeto variado se comporte de forma diferente dependendo do contexto. Significa literalmente "muitas formas" e é usado para criar códigos mais flexíveis e reutilizáveis. Por exemplo, um método pode ter diferentes implementações dependendo do tipo de argumento que é passado para ele.</p>
+        <h2>Qual a vantagem de utilizar Polimorfismo?</h2>
+        <p>O polimorfismo é uma técnica de programação que permite que os programadores reutilizem o mesmo código em diferentes contextos, o que resulta em melhor otimização da codificação e um uso mais eficiente do tempo. O polimorfismo também permite que os programadores criem programas de forma mais modular e estruturada, o que facilita o processo de manutenção e melhoria. Além disso, o polimorfismo torna os programas mais flexíveis e adaptáveis, permitindo que sejam facilmente atualizados para atender às mudanças nos requisitos de negócio.</p>
+        <p>Exemplo de Polimorfismo em Java:</p>
+
+        <div style="overflow-x: auto;">
+            <pre>
+                <code>
+                   <span style="color: red;">Exemplo 1:</span>
+
+                    public interface Animal {
+                        public void emitirSom();
+                    }
+                    
+                    public class Cachorro implements Animal {
+                        public void emitirSom() {
+                            System.out.println("Au Au!");
+                        }
+                    }
+                    
+                    public class Gato implements Animal {
+                        public void emitirSom() {
+                            System.out.println("Miau!");
+                        }
+                    }
+                   
+                   <span style="color: red;">Exemplo 2:</span>
+
+                   public class Computador {
+                        public void ligar() {
+                         System.out.println("Inicializando...");
+                        }
+                    }
+                    public class Notebook extends Computador {
+                        public void ligar() {
+                         System.out.println("Inicializando Notebook...");
+                        }
+                    }
+
+                </code>
+            </pre>
+        </div>
+    </main>
+    <footer>
+
+        <p  class="FooterPolimorfismo">Encontou algum problema? <a class="linkFooterPolimorfismo" href="PaginaErro.html">clique aqui</a></p>
+    </footer>
+</body>
+</html>

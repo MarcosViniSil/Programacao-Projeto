@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encapsulamento</title>
+    <link rel="shortcut icon" href="favicon/icons8-código-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="Encapsulamento.css">
+</head>
+<body>
+    <header>
+        <h1>Encapsulamento</h1>
+        <nav> <a href="Unidade1.html" class="link2Encapsulamento">Anterior</a> <a href="index.html"
+                class="link1Encapsulamento">Home</a> </nav>
+    </header>
+
+    <main>
+        <h2>O que são Classes?</h2>
+        <p>Classes são abstrações usadas para modelar reais entidades do mundo em programação. Elas contém atributos que representam as características dessas entidades e métodos que definem as ações que as entidades podem realizar. Classes são usadas para definir objetos, que são instâncias de classes. Elas são usadas para organizar código, facilitando a reutilização e manutenção, e ajudam a modelar a lógica do programa.</p>
+        <h3>Métodos</h3>
+        <p>
+            Métodos são blocos de código reutilizáveis que realizam uma tarefa específica em um programa. Eles são usados para modularizar um programa, permitindo que as tarefas sejam divididas em partes menores e mais gerenciáveis. Eles são definidos por uma declaração de método e contêm instruções que descrevem o que o método deve fazer. Os métodos são chamados em outras partes do programa para executar as tarefas que eles foram definidos para realizar.</p>
+         <p>Exemplo de classe e Métodos em Java:</p>
+
+         <div style="overflow-x: auto;">
+            <pre>
+             <code>
+
+
+    visibilidadeClasse class nome{
+        visibilidade retorno nomeClasse(Parâmetro,podendo ter ou não){
+            //código do método,o que irá fazer
+
+    }
+    }
+                    
+        Exemplo:
+
+    public class Teste{
+        public void MetodoTeste(){
+            System.out.print("Teste");
+
+    }
+    }
+             </code>
+          
+
+            </pre>
+
+         </div>
+
+    <h2>Encapsulamento</h2>
+    <p>
+        Encapsulamento é um dos princípios fundamentais da programação orientada a objetos. É o processo de agrupar dados e métodos em uma única estrutura, chamada de classe. Isso significa que os dados e os métodos estão ligados e não estão acessíveis a outras classes externas. O encapsulamento ajuda a garantir a segurança dos dados, pois impede que as classes externas possam alterar os dados internos da classe. Também ajuda a manter a consistência dos dados, pois impede que os dados sejam alterados por fontes externas. O encapsulamento também ajuda a manter a segurança das funções, pois impede que elas sejam acessadas por outras classes fora da classe.</p>
+        <p>Exemplo de encapsulamento em Java:</p>
+        <div style="overflow-x: auto;">
+           <pre>
+            <code>
+                public class Pessoa {
+                    private String nome; 
+                    private int idade;
+                  
+                    // métodos de acesso
+                    public String getNome() {
+                      return nome;
+                    }
+                  
+                    public void setNome(String nome) {
+                      this.nome = nome;
+                    }
+                  
+                    public int getIdade() {
+                      return idade;
+                    }
+                  
+                    public void setIdade(int idade) {
+                      this.idade = idade;
+                    }
+                  }
+
+            </code>
+           </pre>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <p  class="FooterEncapsulamento">Encontou algum problema? <a class="linkFooterEncapsulamento" href="PaginaErro.html">clique aqui</a></p>
+    </footer>
+</body>
+</html>
